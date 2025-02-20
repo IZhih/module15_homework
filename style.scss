@@ -1,0 +1,45 @@
+h4 {
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+p {
+  max-width: 80ch;
+  margin-top: 0;
+}
+
+button {
+	cursor: pointer;
+	display: inline-block;
+	padding: 8px 10px;
+	font-size: 1rem;
+	text-align: center;
+	vertical-align: middle;
+  min-height: 30px;
+  background-color: #0d6efd;
+  box-sizing: border-box;
+  border: unset;
+  border-radius: 5px;
+  color: #eee;
+
+  &:active {
+    background-color: #0a58ca;
+  }
+
+	&:hover {
+		background-color: #0b5ed7;
+	}
+
+	.icon-01 {
+		display: inline-block;
+		background-image: url(./ex1/arrow-down-left-circle.svg);
+		vertical-align: -.125em;
+		width: 1em;
+		height: 1em;
+	}
+
+	.icon-02 {
+		background-image: url(./ex1/arrow-down-left-circle-fill.svg);
+	}
+
+}

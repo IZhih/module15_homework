@@ -6,6 +6,6 @@
 const btn = document.getElementById('j-btn');
 const svg = btn.querySelector('.icon-01');
 
-document.addEventListener('click', () => {
+btn.addEventListener('click', () => {
 	svg.classList.toggle('icon-02');
 })

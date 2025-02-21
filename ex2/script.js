@@ -4,6 +4,6 @@
 const btn = document.getElementById('j-btn');
 const svg = btn.querySelector('.icon-01');
 
-document.addEventListener('click', () => {
+btn.addEventListener('click', () => {
 	alert('Размер экрана ' + window.screen.width + 'px по горизонтали, ' + window.screen.height + 'px по вертикали');
 })
